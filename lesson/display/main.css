@@ -1,0 +1,12 @@
+.box{
+    width: 100px;
+    height: 30px;
+    background-color: aquamarine;
+    text-align: center;
+}
+.dropdown{
+    display: none;
+}
+.box:hover .dropdown{
+    display: block;
+}
